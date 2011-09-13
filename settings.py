@@ -13,7 +13,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/development/django-test/django-test.db', # Or path to database file if using sqlite3.
+        'NAME': 'FLX_DB_NAME', # Or path to database file if using sqlite3.
         'USER': 'FLX_DB_USER',                      # Not used with sqlite3.
         'PASSWORD': 'FLX_DB_PASS',                  # Not used with sqlite3.
         'HOST': 'FLX_DB_HOST',                      # Set to empty string for localhost. Not used with sqlite3.
